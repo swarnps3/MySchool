@@ -1,0 +1,51 @@
+.img1{
+    width: 14vw;
+    height: 20vh;
+    border: 2px black solid;
+    border-radius: 4px;
+    box-shadow: 1px 2px 10px grey;
+}
+.slider{
+    width: 60%;
+    height: 55vh;
+    background: url("../images/pic1.jpeg") no-repeat;
+    background-size: 100% 100%;
+    /* position: absolute;
+    top: 38%;
+    left: 21%; */
+    /* margin: 3vh 0;
+    margin-left: 45vh; */
+    box-shadow: 1px 2px 10px black;
+    animation: slider 15s infinite forwards;
+    margin: 8px 20%;
+
+}
+/* ../ helps us to move one step back to parent folder */
+ @keyframes slider{
+    0%{background-image: url("../images/pic1.jpeg");}    
+    20%{background-image: url("../images/pic2.jpeg");}
+    40%{background-image: url("../images/pic3.jpeg");}
+    60%{background-image: url("../images/pic4.jpeg");}
+    80%{background-image: url("../images/pic5.jpeg");}
+}
+#img2{
+    margin-top: 7px;
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 41vh;
+    width: 52vw;
+    border: 3px solid grey;
+    border-radius: 4px;
+    box-shadow: 1px 2px 10px black;
+}
+#img3{
+    height: 35vh;
+    width: 15vw;
+    margin: 5px 7px;
+    border: 3px solid grey;
+    border-radius: 4px;
+    box-shadow: 1px 2px 10px black;
+} 
+.extra{
+    background-image: url("../images/3.jpg");
+}
